@@ -8,6 +8,7 @@ from PIL import Image, ImageTk
 import pygame
 import threading
 
+
 def tocar_som_acerto():
     def tocar():
         pygame.mixer.init()
