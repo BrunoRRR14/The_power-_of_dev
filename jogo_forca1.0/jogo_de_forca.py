@@ -93,6 +93,8 @@ def perdeu():
     fechar_button = Button(janela_perdeu, text="Fechar", command=janela_perdeu.destroy)
     fechar_button.pack(pady=10)
     
+
+    
     
     
     
