@@ -138,7 +138,7 @@ def funcao_simples_2(frase_2):
 def cont_tentativas(tentei):
     if tentei >= len(palavra):
         perdeu()
-    testo = f"Tentativas restantes: {len(palavra) - tentei}"  # Corrigindo o texto para mostrar a quantidade correta
+    testo = f"Erros restantes: {len(palavra) - tentei}"  # Corrigindo o texto para mostrar a quantidade correta
     texto_t["text"] = testo
         
     
