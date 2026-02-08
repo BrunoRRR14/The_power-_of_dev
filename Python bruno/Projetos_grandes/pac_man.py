@@ -1,0 +1,30 @@
+#tudo que tem que importar
+import webbrowser as wb
+from time import sleep
+import pyautogui
+
+wb.open('https://g.co/kgs/YYP7BGm')
+sleep(15)
+pyautogui.moveTo(499, 541)
+pyautogui.click()
+sleep(7)
+pyautogui.press('right')
+sleep(0.5)
+pyautogui.press('up')
+sleep(0.5)
+pyautogui.press('right')
+sleep(0.5)
+pyautogui.press('down')
+sleep(0.5)
+pyautogui.press('right')
+sleep(1)
+pyautogui.press('up')
+sleep(0.5)
+pyautogui.press('right')
+sleep(0.3)
+pyautogui.press('up')
+sleep(0.12)
+pyautogui.press('left')
+sleep(0.5)
+pyautogui.press('right')
+sleep(0.3)
